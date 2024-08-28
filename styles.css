@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "SemiBold";
+  src: url("./assets/fonts/static/Figtree-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("./assets/fonts/static/Figtree-Regular.ttf") format("truetype");
+  font-size: 14px;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Medium";
+  src: url("./assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+}
+html,
+body {
+  font-family: "Regular";
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: hsl(47, 88%, 63%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  max-width: 384px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 20px;
+  border: 1px solid #111;
+  background-color: #fff;
+  box-shadow: 8px 8px 0px 0px #000;
+}
+.blog-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-image img {
+  border-radius: 10px;
+  background-color: #f4d04e;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.content-cate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  color: #111;
+  font-family: "ExtraBold";
+  background-color: #f4d04e;
+  border-radius: 4px;
+  border: none;
+  font-weight: 800;
+}
+.content-time {
+  font-family: "Medium";
+  color: #111;
+  font-size: 16px;
+  font-weight: 500;
+}
+.content-title {
+  font-family: "SemiBold";
+  color: #111;
+  font-size: 24px;
+  font-weight: 900;
+}
+.content-description {
+  font-family: "Regular";
+  font-size: 16px;
+  font-weight: 500;
+  color: #6b6b6b;
+  max-width: 336px;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.author div {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  background: url("./assets/images/image-avatar.webp") lightgray 50% / cover
+    no-repeat;
+}
+.author span {
+  font-family: "Regular";
+  color: #111;
+  font-size: 14px;
+  font-weight: 800;
+}
